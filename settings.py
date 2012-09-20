@@ -28,11 +28,11 @@ DATABASES = {
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'Asia/Hong_Kong'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-tw'
 
 SITE_ID = u'505940e907ff7e10449814c0'
 
@@ -119,7 +119,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.admindocs',
      
-     'djangotoolbox',
+    'djangotoolbox',
     'django_mongodb_engine',
     
      
@@ -157,18 +157,4 @@ LOGGING = {
         },
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
